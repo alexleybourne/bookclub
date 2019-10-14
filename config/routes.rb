@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'enquiries', to: "enquiries#index"
   get 'enquiries/new'
   post 'enquiries', to: "enquiries#create"
 
